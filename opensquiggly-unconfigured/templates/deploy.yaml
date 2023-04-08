@@ -1,0 +1,25 @@
+# Define the OpenSquiggly deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opensquiggly
+  labels:
+    app: opensquiggly
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: opensquiggly               
+  template:
+    metadata:
+      labels:
+        app: opensquiggly
+    spec:
+      terminationGracePeriodSeconds: 30
+      containers:
+      - name: opensquiggly
+        image: docker.io/opensquiggly/opensquiggly:latest
+        ports:
+        - containerPort: 80
