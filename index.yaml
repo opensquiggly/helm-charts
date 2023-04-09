@@ -3,9 +3,9 @@ entries:
   opensquiggly-unconfigured:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-08T20:58:02.887794813-05:00"
+    created: "2023-04-08T23:23:26.337138263-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
-    digest: 5fcb3d7e9cac67be5c82bdff509164a14aebc6685f2a0c2a9f46814c75176f75
+    digest: 46939dfa7f149898bcddc8d28e90a4c22b39d9aea1098ec66253f748916ac381
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -15,4 +15,4 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/opensquiggly-unconfigured/opensquiggly-unconfigured-1.0.0.tgz
     version: 1.0.0
-generated: "2023-04-08T20:58:02.887542943-05:00"
+generated: "2023-04-08T23:23:26.336907135-05:00"
