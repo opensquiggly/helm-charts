@@ -63,4 +63,8 @@ spec:
           - containerPort: 27017
         volumeMounts:
         - name: data
-          mountPath: /data            
+          mountPath: /data     
+      volumes:
+      - name: data
+        persistentVolumeClaim:
+          claimName: {{ .Release.Name }}-azure-managed-disk
