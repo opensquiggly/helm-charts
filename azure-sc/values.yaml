@@ -1,3 +1,4 @@
+name: opensquiggly-storageclass
 reclaimPolicy: Retain
 skuname: Premium_LRS
 provisioner: disk.csi.azure.com

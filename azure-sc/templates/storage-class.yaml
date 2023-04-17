@@ -5,7 +5,7 @@ metadata:
   labels:
     addonmanager.kubernetes.io/mode: EnsureExists
     kubernetes.io/cluster-service: "true"
-  name: {{ .Release.Name }}-storageclass
+  name: {{ .Values.name }}
 parameters:
   skuname: {{ .Values.skuname }}
 provisioner: {{ .Values.provisioner }}
