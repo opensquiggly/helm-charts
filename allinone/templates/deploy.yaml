@@ -17,6 +17,8 @@ spec:
         app: {{ .Release.Name }}
     spec:
       terminationGracePeriodSeconds: 30
+      nodeSelector:
+        pool: apppool      
       initContainers:
       # Initialize the elasticsearch directory if it doesn't exist
       - name: create-elastic-folder
