@@ -1,0 +1,10 @@
+apiVersion: v2
+name: azure-sc
+version: 1.0.0
+description: Create an Azure storage class for use with OpenSquiggly instances created separately.
+type: application
+appVersion: "1.0"
+maintainers:
+  - name: Kevin Dietz
+    email: info@opensquiggly.com
+    url: https://opensquiggly.com

@@ -1,6 +1,7 @@
 all:
 	helm package unconfigured
 	helm package allinone
+	helm package azure-sc
 	helm repo index --url https://opensquiggly.github.io/helm-charts .
 
 checkin:

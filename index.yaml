@@ -3,10 +3,10 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-16T22:58:03.225769933-05:00"
+    created: "2023-04-17T16:39:19.182945278-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
-    digest: 214f32138fcedef5e9e99072450987186025a1a681e2ec873f55f583a9e421b2
+    digest: a895dcdd373567a5ca4f7be9c95c5934a7ee827507e92d03a4852a26fb77c35e
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -16,12 +16,28 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/allinone-1.0.0.tgz
     version: 1.0.0
+  azure-sc:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-04-17T16:39:19.183068205-05:00"
+    description: Create an Azure storage class for use with OpenSquiggly instances
+      created separately.
+    digest: b2027e1031d15c1d4c5a909556964da2f386ce0be1545a8c921f0a47fd4e6168
+    maintainers:
+    - email: info@opensquiggly.com
+      name: Kevin Dietz
+      url: https://opensquiggly.com
+    name: azure-sc
+    type: application
+    urls:
+    - https://opensquiggly.github.io/helm-charts/azure-sc-1.0.0.tgz
+    version: 1.0.0
   unconfigured:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-16T22:58:03.225934504-05:00"
+    created: "2023-04-17T16:39:19.183225692-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
-    digest: c805d0cd0e0c1ee1c5664d7e9ed20c18c1156e3d91f580707fbe8fe91f6528e6
+    digest: 3e58e9498b5e7c88d5e0786470839b41a2a36754a719aee4e62dd18933a86a95
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -33,7 +49,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-16T22:58:03.226068288-05:00"
+    created: "2023-04-17T16:39:19.183355922-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
     digest: d4fc5cbadf0f061a89063841efd2f66400c3b87d8616d0b47b5f922859b6b63b
     maintainers:
@@ -45,4 +61,4 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/unconfigured/unconfigured-1.0.0.tgz
     version: 1.0.0
-generated: "2023-04-16T22:58:03.225495493-05:00"
+generated: "2023-04-17T16:39:19.182651099-05:00"
