@@ -8,5 +8,5 @@ spec:
   storageClassName: {{ .Release.Name }}-managed-csi-premium-retain
   resources:
     requests:
-      storage: 30Gi  
+      storage: {{ .Values.diskSize }}Gi  
   volumeMode: Filesystem  
