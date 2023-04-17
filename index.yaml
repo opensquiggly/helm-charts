@@ -3,10 +3,10 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-16T22:55:02.744520659-05:00"
+    created: "2023-04-16T22:58:03.225769933-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
-    digest: 3c7079c0c82b490ee03f7e5b011b13f40756c94479751f2e4c5b2e0bc18181cf
+    digest: 214f32138fcedef5e9e99072450987186025a1a681e2ec873f55f583a9e421b2
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -19,9 +19,9 @@ entries:
   unconfigured:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-16T22:55:02.744693206-05:00"
+    created: "2023-04-16T22:58:03.225934504-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
-    digest: 00d692d2b58c31e416dafa0b5dae8ce865db6cfdf15ff18512b125d106e5e84c
+    digest: c805d0cd0e0c1ee1c5664d7e9ed20c18c1156e3d91f580707fbe8fe91f6528e6
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -33,7 +33,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-16T22:55:02.744836858-05:00"
+    created: "2023-04-16T22:58:03.226068288-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
     digest: d4fc5cbadf0f061a89063841efd2f66400c3b87d8616d0b47b5f922859b6b63b
     maintainers:
@@ -45,4 +45,4 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/unconfigured/unconfigured-1.0.0.tgz
     version: 1.0.0
-generated: "2023-04-16T22:55:02.744230289-05:00"
+generated: "2023-04-16T22:58:03.225495493-05:00"
