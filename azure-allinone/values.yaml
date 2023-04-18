@@ -1,0 +1,9 @@
+diskSize: 32
+useExistingPv: ""
+useExistingPvc: ""
+useExistingStorageClass: ""
+exposeWith: LoadBalancer
+dnsHostName: ""
+sslCertSecret: ""
+ingressClassName: nginx
+storageClassProvisioner: disk.csi.azure.com

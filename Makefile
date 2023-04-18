@@ -3,6 +3,7 @@ all:
 	helm package allinone
 	helm package azure-sc
 	helm package azure-pvc
+	helm package azure-allinone
 	helm repo index --url https://opensquiggly.github.io/helm-charts .
 
 checkin:
