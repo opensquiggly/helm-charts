@@ -7,3 +7,4 @@ dnsHostName: ""
 sslCertSecret: ""
 ingressClassName: nginx
 storageClassProvisioner: disk.csi.azure.com
+skuname: Premium_LRS
