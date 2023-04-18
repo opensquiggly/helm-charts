@@ -1,0 +1,6 @@
+storageClassName:
+  required: true
+  description: "Required: Specify the underlying storage class name to use for this claim"
+diskSize:
+  default: 32
+  description: "Specify the desired size of the disk storage in gigabytes (e.g., enter 32 for 32 gigabytes)"
