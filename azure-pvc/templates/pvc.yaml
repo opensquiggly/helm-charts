@@ -6,7 +6,7 @@ spec:
   accessModes:
   - ReadWriteOnce
   storageClassName: {{ .Values.storageClassName }}
-#   resources:
-#     requests:
-#       storage: 30Gi  
+  resources:
+    requests:
+      storage: {{ .Values.diskSize }}Gi  
   volumeMode: Filesystem 
