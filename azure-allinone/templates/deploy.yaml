@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: {{ .Release.Name }}
+        date: "{{ .Release.Time.Seconds }}"
     spec:
       terminationGracePeriodSeconds: 30
       initContainers:
@@ -35,6 +36,7 @@ spec:
       # OpenSquiggly container
       - name: opensquiggly
         image: docker.io/opensquiggly/opensquiggly:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
       # ElasticSearch container
