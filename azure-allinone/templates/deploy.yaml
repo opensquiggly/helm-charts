@@ -4,6 +4,7 @@ metadata:
   name: {{ .Release.Name }}
   labels:
     app: {{ .Release.Name }}
+    date: "{{ .Release.Time.Seconds }}"
 spec:
   replicas: 1
   strategy:
@@ -15,7 +16,6 @@ spec:
     metadata:
       labels:
         app: {{ .Release.Name }}
-        date: {{ .Release.Time.Seconds }}
     spec:
       terminationGracePeriodSeconds: 30
       initContainers:
