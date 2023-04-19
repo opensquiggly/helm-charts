@@ -15,7 +15,7 @@ spec:
     metadata:
       labels:
         app: {{ .Release.Name }}
-        date: "{{ .Release.Time.Seconds }}"
+        date: {{ .Release.Time.Seconds }}
     spec:
       terminationGracePeriodSeconds: 30
       initContainers:
