@@ -3,10 +3,10 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-18T23:15:15.595760924-05:00"
+    created: "2023-05-10T20:20:51.847391768-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
-    digest: 995d7bb81963cf1aed05bf7e7165ccc23a85dc7ecc6e28f2f1c036a4651bfa64
+    digest: 983a166de4786b9c6b0bda27861a102fc16ce8df3f85eee2205a073517fc5fcb
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -19,10 +19,10 @@ entries:
   azure-allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-18T23:15:15.596082786-05:00"
+    created: "2023-05-10T20:20:51.847572555-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod, with Azure-specific options
-    digest: 094c759767703cf4a6104b1bb4868c9f513a6d1023ac1483b76ffc02bc91a028
+    digest: 4ee4f460421197378051bbed085a8cda3fe6deec0644c71c906e4b53973adad1
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -35,10 +35,10 @@ entries:
   azure-pvc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-18T23:15:15.596323747-05:00"
+    created: "2023-05-10T20:20:51.847703732-05:00"
     description: Create a persistent volume claim using a specified storage class
       name.
-    digest: 228047a76f860d541dfdf03580de56f2af52e5e84f66cb700d37f8c63d9a5e47
+    digest: aeab42f60a00d4f47cd924b07f0f4e888f93889a2981c68e884549d3c7bba36b
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -51,10 +51,10 @@ entries:
   azure-sc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-18T23:15:15.596557173-05:00"
+    created: "2023-05-10T20:20:51.847850581-05:00"
     description: Create an Azure storage class for use with OpenSquiggly instances
       created separately.
-    digest: 33a0553317d3792a5eca6f7063139a46430846c5b5e470a52129b019fd4128af
+    digest: 094342c60aec174df613074be2361b7459199538ee81a2fe1c98a3d94df5ede6
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -64,12 +64,28 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/azure-sc-1.0.0.tgz
     version: 1.0.0
+  linode-allinone:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-05-10T20:20:51.848020496-05:00"
+    description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
+      and ElasticSearch installed as a multi-container pod, with Linode-specific options
+    digest: a6918d7be8300044d835df29f9cd08912ed5740f41fa6396321eaa2648ee17f4
+    maintainers:
+    - email: info@opensquiggly.com
+      name: Kevin Dietz
+      url: https://opensquiggly.com
+    name: linode-allinone
+    type: application
+    urls:
+    - https://opensquiggly.github.io/helm-charts/linode-allinone-1.0.0.tgz
+    version: 1.0.0
   unconfigured:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-18T23:15:15.596841791-05:00"
+    created: "2023-05-10T20:20:51.848172195-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
-    digest: 34f18312818228bd27af55a416574a413574d32144bc515f57165610724fc436
+    digest: 4a1b8f53a4d637d6d356df89ebb889ed7bf20f566ec81867e5002b7203ea8ecb
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -81,7 +97,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2023-04-18T23:15:15.59710156-05:00"
+    created: "2023-05-10T20:20:51.848314655-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
     digest: d4fc5cbadf0f061a89063841efd2f66400c3b87d8616d0b47b5f922859b6b63b
     maintainers:
@@ -93,4 +109,4 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/unconfigured/unconfigured-1.0.0.tgz
     version: 1.0.0
-generated: "2023-04-18T23:15:15.595284443-05:00"
+generated: "2023-05-10T20:20:51.847114404-05:00"
