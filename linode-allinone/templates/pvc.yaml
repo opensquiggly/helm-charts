@@ -8,5 +8,4 @@ spec:
   storageClassName: {{ .Release.Name }}-storageclass
   resources:
     requests:
-      storage: {{ .Values.diskSize }}Gi  
-  volumeMode: Filesystem
+      storage: {{ .Values.diskSize }}Gi
