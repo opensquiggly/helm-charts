@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
   - ReadWriteOnce
-  storageClassName: linode-block-storage-retain
+  storageClassName: {{ .Release.Name }}-storageclass
   resources:
     requests:
-      storage: {{ .Values.diskSize }}Gi
+      storage: {{ .Values.diskSize }}Gi  
