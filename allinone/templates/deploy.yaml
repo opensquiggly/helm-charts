@@ -1,4 +1,4 @@
-{{- $cloudProvider := .Values.provider | required ".Values.provider is required." -}}
+{{- $cloudProvider := .Values.cloudProvider | required ".Values.cloudProvider is required." -}}
 ---
 apiVersion: apps/v1
 kind: Deployment
