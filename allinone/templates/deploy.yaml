@@ -1,4 +1,4 @@
-{{- $cloudProvider := .Values.cloudProvider | required ".Values.cloudProvider is required." -}}
+{{- $cloudProvider := .Values.cloudProvider | required "cloudProvider is required: Enter aws, azure, google, digitalocean, linode, or other." -}}
 ---
 apiVersion: apps/v1
 kind: Deployment
