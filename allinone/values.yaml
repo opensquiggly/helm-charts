@@ -1,5 +1,4 @@
 cloudProvider:
-  required: true
   description: "Cloud provider type: Enter aws, azure, digitalocean, google, linode or other"
 noCreateStorageClass: false
 diskSize: 32
