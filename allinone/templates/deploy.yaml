@@ -17,8 +17,8 @@ spec:
         app: {{ .Release.Name }}
     spec:
       terminationGracePeriodSeconds: 30
-      nodeSelector:
-        agentpool: apppool      
+      # nodeSelector:
+      #   agentpool: apppool      
       initContainers:
       # Initialize the elasticsearch directory if it doesn't exist
       - name: create-elastic-folder
@@ -69,4 +69,4 @@ spec:
       volumes:
       - name: data
         persistentVolumeClaim:
-          claimName: {{ .Release.Name }}-azure-managed-disk
+          claimName: {{ .Release.Name }}-pvc

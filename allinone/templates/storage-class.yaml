@@ -5,9 +5,9 @@ metadata:
   labels:
     addonmanager.kubernetes.io/mode: EnsureExists
     kubernetes.io/cluster-service: "true"
-  name: {{ .Release.Name }}-managed-csi-premium-retain
+  name: {{ .Release.Name }}-storageclass
 parameters:
-  skuname: Premium_LRS
-provisioner: disk.csi.azure.com
+  skuname: {{ .Values.skuname }}
+provisioner: {{ .Values.storageClassProvisioner }}
 reclaimPolicy: Retain
 volumeBindingMode: WaitForFirstConsumer

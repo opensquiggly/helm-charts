@@ -1,3 +1,5 @@
+cloudProvider:
+  required: true
 noCreateStorageClass: false
 diskSize: 32
 useExistingPv: ""
