@@ -1,12 +1,63 @@
-cloudProvider:
-  description: "Cloud provider type: Enter aws, azure, digitalocean, google, linode or other"
-noCreateStorageClass: false
+# Sample Usages:
+#
+# Example 1: Create a default install on Azure with default disk size of 32G
+#   helm install test1 opensquiggly/allinone --set cloudType=azure
+#
+# Example 2: Create an install on Linode with custom disk size of 100G
+#   helm install test1 opensquiggly/allinone --set cloudType=linode,diskSize=100
+#
+# Example 3: Create a an install on Azure using the files.csi.azure.com storage
+#            provision instead of the default disk.csi.azure.com provisioner
+#   helm install test1 opensquiggly/allinone \
+#     --set cloudType=azure,storageProvisioner=files.csi.azure.com
+
+# Enter the cloud provider type: aws, azure, digitalocean, google, linode, or other.
+# If you enter 'other', then you must also enter a value for storageProvisioner,
+# or specify one of useExistingPv, useExistingPvc, or useExistingStorageClass.
+cloudType: null
+
+# Enter the desired size of the persistent volume to be created, in gigabytes
 diskSize: 32
+
+# If you don't want the Helm chart to create a persistent volume, and instead
+# use an existing persistent volume, enter the persistent volume name here
 useExistingPv: ""
+
+# If you don't want the Helm chart to create a persisten volume claim, and instead
+# use an existing persistent volume claim, enter the PVC claim name here. This
+# option is only valid if useExistingPv is empty.
 useExistingPvc: ""
+
+# If you don't want the Helm chart to create a storage class, and instead use
+# an existing storage class, enter the storage class name in useExistingStorageClass.
+# This option is only valid if BOTH useExistingPv and useExistingPvc are empty.
 useExistingStorageClass: ""
-exposeWith: LoadBalancer
+
+# If you want the storage class created by the Helm chart to use a specific storage
+# provisioner supplied by your cloud provider, enter the name of the storage provisioner
+# here. We recommend using the highest performing storage provisioner that your cloud
+# provider allows, but if you need to choose a specific provisioner, enter it here.
+# This option is only valid if useExistingPv, useExistingPvc and useExistingStorageClass
+# are all empty. Consult the opensquiggly.com documentation for additional information
+# on each cloud type and the available provisioners.
+storageProvisioner: ""
+
+# How would you like the OpenSquiggly web service exposed to the outside world?
+# Enter 'LoadBalancer' to use a standard load balancer service, or 'nginx' to use
+# an Nginx-powered ingress controller. Note that using an ingress controller may 
+# require additional configuration depending on your cloud provider.
+exposeWith: "LoadBalancer"
+
+# To use OpenSquiggly with a custom DNS name, enter the desired DNS name here.
+# This option is only valid when exposeWith is set to nginx.
 dnsHostName: ""
+
+# To use OpenSquiggly with HTTPS, upload your TLS certificate as a Kubernetes secret,
+# then enter the name of the secret that stores the certificate here. This option is
+# only valid when exposeWith is set to nginx. Consult the documentation at opensquiggly.com
+# for additional information on installing OpenSquiggly with HTTPS.
 sslCertSecret: ""
-ingressClassName: nginx
-storageClassProvisioner: disk.csi.azure.com
+
+# To use the Nginx ingress controller with a custom ingress class name that you've
+# previously created, enter the name of the ingress class here. 
+ingressClassName: "nginx"

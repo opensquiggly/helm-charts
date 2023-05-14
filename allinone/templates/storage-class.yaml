@@ -1,13 +1,28 @@
+{{- $provisioner := "" -}}
+{{- if eq .Values.cloudType "azure" -}}
+{{-   $provisioner = "disk.csi.azure.com" -}}
+{{- else if eq .Values.cloudType "linode" -}}  
+{{-   $provisioner = "linodebs.csi.linode.com" -}}
+{{- else if eq .Values.cloudType "digitalocean" -}}
+{{-   $provisioner = "dobs.csi.digitalocean.com" -}}
+{{- end -}}
+{{- if ne .Values.storageProvisioner "" -}}
+{{-   $provisioner = .Values.storageProvisioner -}}
+{{- end -}}
+{{- if eq $provisioner "" -}}
+{{-   printf "\nStorage provisioner not supplied" -}}
+{{-   printf "\nSpecify a known cloudType or else specify storageProvisioner" | fail -}}
+{{- end -}}
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 allowVolumeExpansion: true
 metadata:
   labels:
     addonmanager.kubernetes.io/mode: EnsureExists
-    kubernetes.io/cluster-service: "true"
+    kubernetes.io/cluster-skervice: "true"
   name: {{ .Release.Name }}-storageclass
 parameters:
   skuname: {{ .Values.skuname }}
-provisioner: {{ .Values.storageClassProvisioner }}
+provisioner: {{ $provisioner }}
 reclaimPolicy: Retain
 volumeBindingMode: WaitForFirstConsumer
