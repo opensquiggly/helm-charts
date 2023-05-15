@@ -1,10 +1,15 @@
 {{- $provisioner := "" -}}
+{{- $parameters := dict -}}
 {{- if eq .Values.cloudType "azure" -}}
 {{-   $provisioner = "disk.csi.azure.com" -}}
+{{-   $parameters = merge $parameters (dict "skuname" .Values.azureSkuname) -}}
 {{- else if eq .Values.cloudType "linode" -}}  
 {{-   $provisioner = "linodebs.csi.linode.com" -}}
 {{- else if eq .Values.cloudType "digitalocean" -}}
 {{-   $provisioner = "dobs.csi.digitalocean.com" -}}
+{{- else if eq .Values.cloudType "google" -}}
+{{-   $provisioner = "pd.csi.storage.gke.io" -}}
+{{-   $parameters = merge $parameters (dict "type" .Values.googleDiskType) -}}
 {{- end -}}
 {{- if ne .Values.storageProvisioner "" -}}
 {{-   $provisioner = .Values.storageProvisioner -}}
@@ -21,8 +26,7 @@ metadata:
     addonmanager.kubernetes.io/mode: EnsureExists
     kubernetes.io/cluster-skervice: "true"
   name: {{ .Release.Name }}-storageclass
-parameters:
-  skuname: {{ .Values.skuname }}
+parameters: {{ $parameters | toJson }}
 provisioner: {{ $provisioner }}
 reclaimPolicy: Retain
 volumeBindingMode: WaitForFirstConsumer

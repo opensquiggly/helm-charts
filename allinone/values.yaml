@@ -42,6 +42,16 @@ useExistingStorageClass: ""
 # on each cloud type and the available provisioners.
 storageProvisioner: ""
 
+# For Azure cloud type only, this variable supplies the Azure skuname you wish
+# to use for your storage class and associated persistent volume claim. By default
+# we select the higher performance option.
+azureSkuname: Premium_LRS
+
+# For Google cloud type only, this variable supplies the Google disk type you wish
+# to use for your storage class and associated persistent volume claim. By default
+# we select the higher performance option.
+googleDiskType: pd-ssd
+
 # How would you like the OpenSquiggly web service exposed to the outside world?
 # Enter 'LoadBalancer' to use a standard load balancer service, or 'nginx' to use
 # an Nginx-powered ingress controller. Note that using an ingress controller may 
