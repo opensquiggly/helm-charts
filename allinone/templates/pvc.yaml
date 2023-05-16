@@ -5,19 +5,26 @@ metadata:
 spec:
   accessModes:
   - ReadWriteOnce
-  {{- if eq .Values.useExistingStorageClass "" }}
-  storageClassName: {{ .Release.Name }}-storageclass
-  {{- else }}
+  {{- if ne .Values.useExistingPv "" }}
+  {{- if ne .Values.existingPvStorageClass "" }}
+  storageClassName: {{ .Values.existingPvStorageClass }}
+  {{- else if ne .Values.useExistingStorageClass "" }}
   storageClassName: {{ .Values.useExistingStorageClass }}
-  {{- end }}
-  {{- if eq .Values.useExistingPv "" }}
-  resources:
-    requests:
-      storage: {{ .Values.diskSize }}Gi
   {{- else }}
+  storageClassName: {{ .Release.Name }}-storageclass
+  {{- end }}
   resources:
     requests:
       storage: 1Gi
   volumeName: {{ .Values.useExistingPv }}
+  {{- else -}}
+  {{- if ne .Values.useExistingStorageClass "" }}
+  storageClassName: {{ .Values.useExistingStorageClass }}
+  {{- else }}
+  storageClassName: {{ .Release.Name }}-storageclass
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.diskSize }}Gi
   {{- end }}
   volumeMode: Filesystem

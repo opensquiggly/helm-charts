@@ -23,6 +23,10 @@ diskSize: 32
 # use an existing persistent volume, enter the persistent volume name here
 useExistingPv: ""
 
+# When specifying useExistingPv, you must also specify the storage class that
+# the existing persistent volume uses.
+existingPvStorageClass: ""
+
 # If you don't want the Helm chart to create a persisten volume claim, and instead
 # use an existing persistent volume claim, enter the PVC claim name here. This
 # option is only valid if useExistingPv is empty.
