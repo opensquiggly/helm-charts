@@ -22,7 +22,7 @@ metadata:
   {{- if eq .Values.cloudType "azure" }}
   labels:
     addonmanager.kubernetes.io/mode: EnsureExists
-    kubernetes.io/cluster-skervice: "true"
+    kubernetes.io/cluster-service: "true"
   {{- end }}
   name: {{ .Release.Name }}-storageclass
 parameters:
