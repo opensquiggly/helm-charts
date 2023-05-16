@@ -23,8 +23,10 @@ diskSize: 32
 # use an existing persistent volume, enter the persistent volume name here
 useExistingPv: ""
 
-# When specifying useExistingPv, you must also specify the storage class that
-# the existing persistent volume uses.
+# When specifying useExistingPv, you can also specify the storage class that
+# the existing persistent volume uses. If you don't specify a storage class,
+# the chart will use the name specified in useExistingStorage class if it is
+# provided, or else the Helm release name suffixed with "-storageclass".
 existingPvStorageClass: ""
 
 # If you don't want the Helm chart to create a persisten volume claim, and instead
