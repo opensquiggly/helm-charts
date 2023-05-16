@@ -1,32 +1,37 @@
 {{- $provisioner := "" -}}
-{{- $parameters := dict -}}
 {{- if eq .Values.cloudType "azure" -}}
 {{-   $provisioner = "disk.csi.azure.com" -}}
-{{-   $parameters = merge $parameters (dict "skuname" .Values.azureSkuname) -}}
 {{- else if eq .Values.cloudType "linode" -}}  
 {{-   $provisioner = "linodebs.csi.linode.com" -}}
 {{- else if eq .Values.cloudType "digitalocean" -}}
 {{-   $provisioner = "dobs.csi.digitalocean.com" -}}
 {{- else if eq .Values.cloudType "google" -}}
 {{-   $provisioner = "pd.csi.storage.gke.io" -}}
-{{-   $parameters = merge $parameters (dict "type" .Values.googleDiskType) -}}
 {{- end -}}
 {{- if ne .Values.storageProvisioner "" -}}
 {{-   $provisioner = .Values.storageProvisioner -}}
 {{- end -}}
 {{- if eq $provisioner "" -}}
-{{-   printf "\nStorage provisioner not supplied" -}}
-{{-   printf "\nSpecify a known cloudType or else specify storageProvisioner" | fail -}}
+{{-   (print "\nStorage provisioner not supplied" "\nSpecify a known cloudType or else specify storageProvisioner") | fail -}}
 {{- end -}}
+{{- if eq .Values.useExistingStorageClass "" -}}
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 allowVolumeExpansion: true
 metadata:
+  {{- if eq .Values.cloudType "azure" }}
   labels:
     addonmanager.kubernetes.io/mode: EnsureExists
     kubernetes.io/cluster-skervice: "true"
+  {{- end }}
   name: {{ .Release.Name }}-storageclass
-parameters: {{ $parameters | toJson }}
+parameters:
+  {{- if eq .Values.cloudType "azure" }}
+  skuname: {{ .Values.azureSkuname }}
+  {{- else if eq .Values.cloudType "google" }}
+  type: {{ .Values.googleDiskType }}
+  {{- end }}
 provisioner: {{ $provisioner }}
 reclaimPolicy: Retain
 volumeBindingMode: WaitForFirstConsumer
+{{- end -}}
