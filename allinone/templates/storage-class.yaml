@@ -1,6 +1,8 @@
 {{- $provisioner := "" -}}
 {{- if eq .Values.cloudType "azure" -}}
 {{-   $provisioner = "disk.csi.azure.com" -}}
+{{- else if eq .Values.cloudType "aws" -}}  
+{{-   $provisioner = "ebs.csi.aws.com" -}}
 {{- else if eq .Values.cloudType "linode" -}}  
 {{-   $provisioner = "linodebs.csi.linode.com" -}}
 {{- else if eq .Values.cloudType "digitalocean" -}}
