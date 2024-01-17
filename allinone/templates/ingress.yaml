@@ -13,7 +13,7 @@ spec:
   {{- if ne .Values.tlsSecretName "" }}
   tls:
   - hosts:
-    - {{ .Values.hostname }}
+    - {{ .Values.dnsHostName }}
     secretName: {{ .Values.tlsSecretName }}
   {{- end }}
   rules:
