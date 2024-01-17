@@ -1,7 +1,12 @@
+{{- if eq .Values.exposeWith "LoadBalancer" }}
 apiVersion: v1
 kind: Service
 metadata:
   name: {{ .Release.Name }}-svc
+  {{- if ne .Values.hostname "" }}
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: {{ .Values.hostname }}   
+  {{- end }}
 spec:
   type: LoadBalancer
   ports:
@@ -10,3 +15,4 @@ spec:
       targetPort: 80
   selector:
     app: {{ .Release.Name }}
+{{- end -}}

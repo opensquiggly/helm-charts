@@ -72,7 +72,7 @@ dnsHostName: ""
 # then enter the name of the secret that stores the certificate here. This option is
 # only valid when exposeWith is set to nginx. Consult the documentation at opensquiggly.com
 # for additional information on installing OpenSquiggly with HTTPS.
-sslCertSecret: ""
+tlsSecretName: ""
 
 # To use the Nginx ingress controller with a custom ingress class name that you've
 # previously created, enter the name of the ingress class here. 
