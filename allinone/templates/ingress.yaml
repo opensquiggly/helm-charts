@@ -1,4 +1,4 @@
-{{- if eq .Values.exposeWith "LoadBalancer" }}
+{{- if ne .Values.exposeWith "LoadBalancer" }}
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
