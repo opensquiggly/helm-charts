@@ -37,6 +37,38 @@ spec:
       # OpenSquiggly container
       - name: opensquiggly
         image: docker.io/opensquiggly/opensquiggly:latest
+        env:
+        {{- if ne .Values.appConfigUrlSecretName "" }}
+        - name: ConnectionStrings__AppConfig
+          valueFrom:
+            secretKeyRef:
+              name: {{ .Values.appConfigUrlSecretName }}
+              key: appconfig-endpoint   
+        {{- end }}
+        {{- if ne .Values.databaseUrlSecretName "" }}
+        - name: DatabaseOptions__ConnectionString
+          valueFrom:
+            secretKeyRef:
+              name: {{ .Values.databaseUrlSecretName }}
+              key: database-url
+        - name: UserKeyDatabaseOptions__ConnectionString
+          valueFrom:
+            secretKeyRef:
+              name: {{ .Values.databaseUrlSecretName }}
+              key: userkeydb-url                  
+        {{- end }} 
+        {{- if ne .Values.databaseNameSecretName "" }}
+        - name: DatabaseOptions__DatabaseName
+          valueFrom:
+            secretKeyRef:
+              name: {{ .Values.databaseNameSecretName }}
+              key: database-name  
+        - name: UserKeyDatabaseOptions__DatabaseName
+          valueFrom:
+            secretKeyRef:
+              name: {{ .Values.databaseNameSecretName }}
+              key: userkeydb-name               
+        {{- end }}                  
         ports:
           - containerPort: 80
         volumeMounts:
