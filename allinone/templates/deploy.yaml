@@ -68,7 +68,7 @@ spec:
             secretKeyRef:
               name: {{ .Values.configSecretName }}
               key: UserKeyDatabaseOptions__DatabaseName
-              optional: true               
+              optional: true            
         {{- end }}                  
         ports:
           - containerPort: 80

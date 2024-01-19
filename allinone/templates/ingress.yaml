@@ -4,9 +4,11 @@ kind: Ingress
 metadata:
   name: {{ .Release.Name }}-ingress
   annotations:
+    {{- if ne .Values.tlsSecretName "" }}
     nginx.ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/ssl-cert: {{ .Values.tlsSecretName }}
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    {{- end }}
     external-dns.alpha.kubernetes.io/hostname: {{ .Values.dnsHostName }}
 spec:
   ingressClassName: {{ .Values.exposeWith }}
