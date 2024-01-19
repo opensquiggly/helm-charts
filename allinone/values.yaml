@@ -87,6 +87,4 @@ esMinHeapSize: "512m"
 # Specify the maximum ElasticSearch heap size.
 esMaxHeapSize: "512m"
 
-appConfigUrlSecretName: ""
-databaseUrlSecretName: ""
-databaseNameSecretName: ""
+configSecretName: ""
