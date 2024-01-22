@@ -10,7 +10,7 @@
 {{- else if eq .Values.cloudType "google" -}}
 {{-   $provisioner = "pd.csi.storage.gke.io" -}}
 {{- else if eq .Values.cloudType "minikube" -}}
-{{-   $provisioner = "k8s.io/minikube-hostpath" -}}
+{{-   $provisioner = "hostpath.csi.k8s.io" -}}
 {{- end -}}
 {{- if ne .Values.storageProvisioner "" -}}
 {{-   $provisioner = .Values.storageProvisioner -}}
