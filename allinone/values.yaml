@@ -11,7 +11,14 @@
 #   helm install test1 opensquiggly/allinone \
 #     --set cloudType=azure,storageProvisioner=files.csi.azure.com
 
-# Enter the cloud provider type: aws, azure, digitalocean, google, linode, or other.
+# Enter the cloud provider type: 
+#   aws
+#   azure
+#   digitalocean
+#   google
+#   linode
+#   minikube
+#   other
 # If you enter 'other', then you must also enter a value for storageProvisioner,
 # or specify one of useExistingPv, useExistingPvc, or useExistingStorageClass.
 cloudType: null

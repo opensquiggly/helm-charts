@@ -9,14 +9,16 @@
 {{-   $provisioner = "dobs.csi.digitalocean.com" -}}
 {{- else if eq .Values.cloudType "google" -}}
 {{-   $provisioner = "pd.csi.storage.gke.io" -}}
+{{- else if eq .Values.cloudType "minikube" -}}
+{{-   $provisioner = "k8s.io/minikube-hostpath" -}}
 {{- end -}}
 {{- if ne .Values.storageProvisioner "" -}}
 {{-   $provisioner = .Values.storageProvisioner -}}
 {{- end -}}
+{{- if eq .Values.useExistingStorageClass "" -}}
 {{- if eq $provisioner "" -}}
 {{-   (print "\nStorage provisioner not supplied" "\nSpecify a known cloudType or else specify storageProvisioner") | fail -}}
 {{- end -}}
-{{- if eq .Values.useExistingStorageClass "" -}}
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 allowVolumeExpansion: true
