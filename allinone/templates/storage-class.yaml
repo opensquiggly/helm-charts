@@ -11,6 +11,8 @@
 {{-   $provisioner = "pd.csi.storage.gke.io" -}}
 {{- else if eq .Values.cloudType "minikube" -}}
 {{-   $provisioner = "hostpath.csi.k8s.io" -}}
+{{- else if eq .Values.cloudType "docker-desktop" -}}
+{{-   $provisioner = "docker.io/hostpath" -}}
 {{- end -}}
 {{- if ne .Values.storageProvisioner "" -}}
 {{-   $provisioner = .Values.storageProvisioner -}}
