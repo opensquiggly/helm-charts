@@ -1,4 +1,4 @@
-{{- if ne .Values.useExistingPvc "" }}
+{{- if ne .Values.useExistingPvc "" -}}
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
