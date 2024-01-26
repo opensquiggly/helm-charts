@@ -1,3 +1,4 @@
+{{- if ne .Values.useExistingPvc "" }}
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -6,16 +7,6 @@ spec:
   accessModes:
   - ReadWriteOnce
   {{- if ne .Values.useExistingPv "" }}
-  {{- if ne .Values.existingPvStorageClass "" }}
-  storageClassName: {{ .Values.existingPvStorageClass }}
-  {{- else if ne .Values.useExistingStorageClass "" }}
-  storageClassName: {{ .Values.useExistingStorageClass }}
-  {{- else }}
-  storageClassName: {{ .Release.Name }}-storageclass
-  {{- end }}
-  resources:
-    requests:
-      storage: 1Gi
   volumeName: {{ .Values.useExistingPv }}
   {{- else -}}
   {{- if ne .Values.useExistingStorageClass "" }}
@@ -28,3 +19,4 @@ spec:
       storage: {{ .Values.diskSize }}Gi
   {{- end }}
   volumeMode: Filesystem
+{{- end -}}  

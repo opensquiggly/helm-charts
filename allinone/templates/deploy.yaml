@@ -104,7 +104,11 @@ spec:
       volumes:
       - name: data
         persistentVolumeClaim:
+          {{- if eq .Values.useExistingPvc "" }}
           claimName: {{ .Release.Name }}-pvc
+          {{- else }}
+          claimName: {{ .Values.useExistingPvc }}
+          {{- end }}
       - name: elasticsearch-config
         configMap:
           name: {{ .Release.Name }}-elasticsearch-config          
