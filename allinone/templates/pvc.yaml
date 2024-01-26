@@ -14,9 +14,9 @@ spec:
   {{- else }}
   storageClassName: {{ .Release.Name }}-storageclass
   {{- end }}
+  {{- end }}
   resources:
     requests:
       storage: {{ .Values.diskSize }}Gi
-  {{- end }}
   volumeMode: Filesystem
 {{- end -}}  
