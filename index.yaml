@@ -3,10 +3,10 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.628463197-06:00"
+    created: "2024-01-25T23:22:45.682165126-06:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
-    digest: 859125dd58eecf8c2c48cecc4c02792abee0f713c72cf35f4e934564e673d3b2
+    digest: c3a302c13742842ff8e40761cae101564338279b605097a3ebeb0577ef261108
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -19,10 +19,10 @@ entries:
   azure-allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.628690718-06:00"
+    created: "2024-01-25T23:22:45.682712182-06:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod, with Azure-specific options
-    digest: d27dbd3acbc7308d4f124b5176e93f374632528b4e69e424ba07b31f5555979d
+    digest: 43a945e7e9293b2c1c3cd853c398e00a7eff1452f8435cda15c0f340a33a87f4
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -35,10 +35,10 @@ entries:
   azure-pvc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.628857083-06:00"
+    created: "2024-01-25T23:22:45.68988733-06:00"
     description: Create a persistent volume claim using a specified storage class
       name.
-    digest: 0437acc6784d6581128246672039e3312f2648fb1c3fd4f4607593539633fa32
+    digest: a793bac97c1ad55cb208aa039610dc7ac5a54fae829e049ee005a4a8aa1dc9ec
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -51,10 +51,10 @@ entries:
   azure-sc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.629002067-06:00"
+    created: "2024-01-25T23:22:45.690093701-06:00"
     description: Create an Azure storage class for use with OpenSquiggly instances
       created separately.
-    digest: 757a878ba44f16e3fe556b808e0823fbbea33ce9faeb49725be9a1a97306a1e7
+    digest: ea9f1d4cdac4420a032dd52da0c1970b803d36ea9f47f6eac0a77a81cec07685
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -67,10 +67,10 @@ entries:
   linode-allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.629202056-06:00"
+    created: "2024-01-25T23:22:45.690310501-06:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod, with Linode-specific options
-    digest: b01e5eac8878a8e0395aeaef0129cb23d819c75083e819c0e83c221aac5bf227
+    digest: cef113df4e4f2010dfee896ad2a7369600faf611fec8ff07cc7f3ee824063bde
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -83,9 +83,9 @@ entries:
   unconfigured:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.629388388-06:00"
+    created: "2024-01-25T23:22:45.690525237-06:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
-    digest: 4cd00a878bc3d77c8dcb709a78680c73620db740d6e9586c0b8a858a766f6d6b
+    digest: 4373ecf8a2564340d8f93c7974ce2332d8fdcb9c661b8cd1e9646dcabeef909f
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -97,7 +97,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-01-25T23:21:57.629546998-06:00"
+    created: "2024-01-25T23:22:45.690694879-06:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
     digest: d4fc5cbadf0f061a89063841efd2f66400c3b87d8616d0b47b5f922859b6b63b
     maintainers:
@@ -109,4 +109,4 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/unconfigured/unconfigured-1.0.0.tgz
     version: 1.0.0
-generated: "2024-01-25T23:21:57.628028074-06:00"
+generated: "2024-01-25T23:22:45.681707931-06:00"
