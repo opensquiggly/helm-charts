@@ -17,7 +17,7 @@
 {{- if ne .Values.storageProvisioner "" -}}
 {{-   $provisioner = .Values.storageProvisioner -}}
 {{- end -}}
-{{- if eq .Values.useExistingStorageClass "" -}}
+{{- if and (eq .Values.useExistingStorageClass "") (and (eq .Values.useExistingPvc "") (eq .Values.useExistingPv "") -}}
 {{- if eq $provisioner "" -}}
 {{-   (print "\nStorage provisioner not supplied" "\nSpecify a known cloudType or else specify storageProvisioner") | fail -}}
 {{- end -}}
