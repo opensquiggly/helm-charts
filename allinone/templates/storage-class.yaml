@@ -1,6 +1,11 @@
+{{- $diskSkuName := .Values.diskSkuName -}}
+{{- $diskType := .Values.diskType -}}
 {{- $provisioner := "" -}}
 {{- if eq .Values.cloudType "azure" -}}
 {{-   $provisioner = "disk.csi.azure.com" -}}
+{{-   if eq $diskSkuName "" -}}
+{{-     $diskSkuName = "Premium_LRS" -}}
+{{-   end -}}
 {{- else if eq .Values.cloudType "aws" -}}  
 {{-   $provisioner = "ebs.csi.aws.com" -}}
 {{- else if eq .Values.cloudType "linode" -}}  
@@ -9,6 +14,9 @@
 {{-   $provisioner = "dobs.csi.digitalocean.com" -}}
 {{- else if eq .Values.cloudType "google" -}}
 {{-   $provisioner = "pd.csi.storage.gke.io" -}}
+{{-   if eq $diskType "" -}}
+{{-     $diskType = "pd-ssd" -}}
+{{-   end -}}
 {{- else if eq .Values.cloudType "minikube" -}}
 {{-   $provisioner = "hostpath.csi.k8s.io" -}}
 {{- else if eq .Values.cloudType "docker-desktop" -}}
@@ -32,10 +40,11 @@ metadata:
   {{- end }}
   name: {{ .Release.Name }}-storageclass
 parameters:
-  {{- if eq .Values.cloudType "azure" }}
-  skuname: {{ .Values.azureSkuname }}
-  {{- else if eq .Values.cloudType "google" }}
-  type: {{ .Values.googleDiskType }}
+  {{- if ne $diskSkuName "" }}
+  skuname: {{ $diskSkuName }}
+  {{- end }}
+  {{- if ne $diskType "" }}
+  type: {{ $diskType }}
   {{- end }}
 provisioner: {{ $provisioner }}
 reclaimPolicy: Retain

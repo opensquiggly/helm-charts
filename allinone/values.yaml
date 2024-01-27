@@ -22,7 +22,7 @@
 #   other
 # If you enter 'other', then you must also enter a value for storageProvisioner,
 # or specify one of useExistingPv, useExistingPvc, or useExistingStorageClass.
-cloudType: null
+cloudType: other
 
 # Enter the desired size of the persistent volume to be created, in gigabytes
 diskSize: 32
@@ -56,15 +56,11 @@ useExistingStorageClass: ""
 # on each cloud type and the available provisioners.
 storageProvisioner: ""
 
-# For Azure cloud type only, this variable supplies the Azure skuname you wish
-# to use for your storage class and associated persistent volume claim. By default
-# we select the highest performance option.
-azureSkuname: Premium_LRS
+# Set the StorageClass's skuname parameter
+diskSkuName: ""
 
-# For Google cloud type only, this variable supplies the Google disk type you wish
-# to use for your storage class and associated persistent volume claim. By default
-# we select the highest performance option.
-googleDiskType: pd-ssd
+# Set the StorageClass's type parameter
+diskType: ""
 
 # How would you like the OpenSquiggly web service exposed to the outside world?
 # Enter 'LoadBalancer' to use a standard load balancer service, or 'nginx' to use
