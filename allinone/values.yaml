@@ -92,3 +92,6 @@ esMinHeapSize: "512m"
 esMaxHeapSize: "512m"
 
 configSecretName: ""
+
+# If start=true, set deploy replicas to 1, otherwise set to 0
+start: true
