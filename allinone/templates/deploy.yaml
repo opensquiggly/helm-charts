@@ -5,11 +5,11 @@ metadata:
   labels:
     app: {{ .Release.Name }}
 spec:
-  {{- if .Values.start -}}
+  {{- if .Values.start }}
   replicas: 1
-  {{- else -}}
+  {{- else }}
   replicas: 0
-  {{- end -}}
+  {{- end }}
   strategy:
     type: Recreate
   selector:
