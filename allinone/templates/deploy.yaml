@@ -40,7 +40,7 @@ spec:
       containers:
       # OpenSquiggly container
       - name: opensquiggly
-        image: docker.io/opensquiggly/opensquiggly:latest
+        image: docker.io/opensquiggly/opensquiggly:{{ .Values.version }}
         {{- if ne .Values.configSecretName "" }}
         env:
         - name: ConnectionStrings__AppConfig
