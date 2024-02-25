@@ -91,6 +91,10 @@ esMinHeapSize: "512m"
 # Specify the maximum ElasticSearch heap size.
 esMaxHeapSize: "512m"
 
+# Evaluation mode. If true, an extra confirmation is required when users self-register
+# themselves, warning them that the OpenSquiggly instance is only for evaluation purposes
+evalMode: false
+
 configSecretName: ""
 
 # If start=true, set deploy replicas to 1, otherwise set to 0
