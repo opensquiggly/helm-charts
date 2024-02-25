@@ -41,10 +41,10 @@ spec:
       # OpenSquiggly container
       - name: opensquiggly
         image: docker.io/opensquiggly/opensquiggly:{{ .Values.version }}
-        {{- if ne .Values.configSecretName "" }}
         env:
         - name: GeneralOptions__EvalMode
           value: {{ .Values.evalMode }}
+        {{- if ne .Values.configSecretName "" }}
         - name: ConnectionStrings__AppConfig
           valueFrom:
             secretKeyRef:
