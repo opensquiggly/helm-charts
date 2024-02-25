@@ -93,7 +93,7 @@ esMaxHeapSize: "512m"
 
 # Evaluation mode. If true, an extra confirmation is required when users self-register
 # themselves, warning them that the OpenSquiggly instance is only for evaluation purposes
-evalMode: false
+evalMode: "false"
 
 configSecretName: ""
 
