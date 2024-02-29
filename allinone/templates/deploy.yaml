@@ -44,6 +44,8 @@ spec:
         env:
         - name: GeneralOptions__EvalMode
           value: "{{ .Values.evalMode | toString }}"
+        - name: GeneralOptions__InternalUseCodes
+          value: {{ .Values.internalUseCodes }}
         {{- if ne .Values.configSecretName "" }}
         - name: ConnectionStrings__AppConfig
           valueFrom:

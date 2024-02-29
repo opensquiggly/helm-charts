@@ -95,6 +95,9 @@ esMaxHeapSize: "512m"
 # themselves, warning them that the OpenSquiggly instance is only for evaluation purposes
 evalMode: "false"
 
+# Internal use codes for use only by OpenSquiggly.
+internalUseCodes: ""
+
 configSecretName: ""
 
 # If start=true, set deploy replicas to 1, otherwise set to 0
