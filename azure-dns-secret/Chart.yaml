@@ -1,0 +1,6 @@
+apiVersion: v2
+name: azure-dns-secret
+description: A Helm chart for Kubernetes to create a secret for Azure DNS
+type: application
+version: 0.1.0
+appVersion: "1.0"

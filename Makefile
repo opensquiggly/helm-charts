@@ -1,6 +1,7 @@
 all:
 	helm package unconfigured
 	helm package allinone
+	helm package azure-dns-secret
 	helm package azure-sc
 	helm package azure-pvc
 	helm package azure-allinone
