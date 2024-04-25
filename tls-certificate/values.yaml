@@ -1,3 +1,3 @@
 secretName: "The name of the secret that store the certificate"
-certContent: "The certificate content"
-certKey: "The certificate key"
+certContent: "The certificate content, base64 encoded"
+certKey: "The certificate key, base64 encoded"
