@@ -6,6 +6,7 @@ all:
 	helm package azure-pvc
 	helm package azure-allinone
 	helm package external-dns
+	helm package tls-certificate
 	helm package linode-allinone
 	helm repo index --url https://opensquiggly.github.io/helm-charts .
 

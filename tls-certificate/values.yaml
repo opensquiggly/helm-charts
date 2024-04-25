@@ -1,0 +1,3 @@
+secretName: "The name of the secret that store the certificate"
+certContent: "The certificate content"
+certKey: "The certificate key"
