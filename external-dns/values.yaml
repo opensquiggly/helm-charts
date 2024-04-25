@@ -1,0 +1,5 @@
+provider: "azure"
+domainFilter: "your-domain-filter (.e.g opensquiggly.com)"
+azureResourceGroup: "your-resource-group, used when provider=azure"
+txtOwnerId: "A unique DNS text record prefix. Prevents conflicts across external-dns"
+secretName: "The name of the secret that stores DNS connection credentials"
