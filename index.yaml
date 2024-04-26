@@ -3,7 +3,22 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.499070826-05:00"
+    created: "2024-04-26T13:46:06.467402063-05:00"
+    description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
+      and ElasticSearch installed as a multi-container pod
+    digest: e11bd62130728229c8bdc0eb953df1a58977a303ae944cf0891cda803061fa98
+    maintainers:
+    - email: info@opensquiggly.com
+      name: Kevin Dietz
+      url: https://opensquiggly.com
+    name: allinone
+    type: application
+    urls:
+    - https://opensquiggly.github.io/helm-charts/allinone-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-04-26T13:46:06.467075204-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 5c5a51ab786fc5089d9975cabbe30448c955b8c09c18f185dcd6c8cfcd72862b
@@ -18,7 +33,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.498756051-05:00"
+    created: "2024-04-26T13:46:06.466757102-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 0e3d7e4574d479b49d11c534345d7632595a42cee7d145efbfc97df08d3071b3
@@ -33,7 +48,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.498411449-05:00"
+    created: "2024-04-26T13:46:06.466428951-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f2d62582d6ff92a401543a223713bfe1fbc5e687026e6761ef118631e4e41d19
@@ -48,7 +63,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.498085101-05:00"
+    created: "2024-04-26T13:46:06.466060734-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: b4d81728a1e3ec7d802118fc3ef19b8b0408d19a4cbdc501a12e0a2a6624d946
@@ -64,10 +79,10 @@ entries:
   azure-allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.499269943-05:00"
+    created: "2024-04-26T13:46:06.467647417-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod, with Azure-specific options
-    digest: f4064dd97b0df95ce0c1395745c9c788863cddee55eb9181ba29fc1cfca0edef
+    digest: 736e4b60ec1d97d065a52c9c19ce515b9a7e62651d75c2f9f6a48925829da427
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -80,9 +95,9 @@ entries:
   azure-dns-secret:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.499420909-05:00"
+    created: "2024-04-26T13:46:06.467774287-05:00"
     description: A Helm chart for Kubernetes to create a secret for Azure DNS
-    digest: 23c85790416ae7f1719c07085fcbd21aa5c67f176cce5578effef4ed9c69edd5
+    digest: 0f48bef9ad2af5954d8fc3a1b09c2d5f477fb480a037e9fdc64f69e75d2f247d
     name: azure-dns-secret
     type: application
     urls:
@@ -91,10 +106,10 @@ entries:
   azure-pvc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.499604466-05:00"
+    created: "2024-04-26T13:46:06.467918039-05:00"
     description: Create a persistent volume claim using a specified storage class
       name.
-    digest: 7950c158a79fc91a26bca698c94c5a893773b06d32ef64d883c00a6277872ee0
+    digest: 0c28742b5fa3836a12bc49219e01aa7e6e30c9bd0b63282a448b6e37cfe06209
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -107,10 +122,10 @@ entries:
   azure-sc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.499741145-05:00"
+    created: "2024-04-26T13:46:06.468050249-05:00"
     description: Create an Azure storage class for use with OpenSquiggly instances
       created separately.
-    digest: b089d2bb56495017cae46bcaff838a7f397c6e753acaf49d7f19d27201d77bd7
+    digest: 95171382bb51e4c5f47f010b9165905e10a84885eadb68b663326a019644bc53
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -123,9 +138,9 @@ entries:
   external-dns:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.499890678-05:00"
+    created: "2024-04-26T13:46:06.468199792-05:00"
     description: A Helm chart for installing external-dns
-    digest: ebd6d216acd31ce5c00166d792b7ed9de35843a3cc6804d0466bd378c145f8a8
+    digest: 38caac81c321cd16d6eb48c4ec1b0a08ff47f85248ebc01eb80b0ca61103f9c4
     name: external-dns
     type: application
     urls:
@@ -134,10 +149,10 @@ entries:
   linode-allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.50008164-05:00"
+    created: "2024-04-26T13:46:06.468382468-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod, with Linode-specific options
-    digest: c8b3708ba2169312834c772b609cff43f6b3ce9688d09f8367ad3bf273e39ff5
+    digest: 90d2f9e4af8bdf23af46d60fb3ef7431f795cc89214871759483e3e2efdfdbff
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -150,7 +165,7 @@ entries:
   my-azure-secret:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.500191407-05:00"
+    created: "2024-04-26T13:46:06.468497506-05:00"
     description: A Helm chart for Kubernetes to create a secret for Azure DNS
     digest: e0467833aa029b8277686b77b0671a6e8bbb604c37c5146d03832f802f686706
     name: my-azure-secret
@@ -161,9 +176,9 @@ entries:
   tls-certificate:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.500299302-05:00"
+    created: "2024-04-26T13:46:06.468607264-05:00"
     description: A Helm chart for installing TLS certificates
-    digest: f1b4888e55746c51a1aeeb7e654262e431f9745f1539ac208d65fe02a707024a
+    digest: aeb184ab86d457b0885ca9dca9389a3bda891b1037e33e1ad6193f84a411c210
     name: tls-certificate
     type: application
     urls:
@@ -172,9 +187,9 @@ entries:
   unconfigured:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.500480695-05:00"
+    created: "2024-04-26T13:46:06.46877425-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
-    digest: 537b1be4b07f36fa79e8357d54905533cc25c04c12af7c5fb42d8eb2b9796023
+    digest: 5a8db598605ee77e16fca9005b902b67125818cdda0809e70ea853d7d7fe0825
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -186,7 +201,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-26T13:42:47.500626321-05:00"
+    created: "2024-04-26T13:46:06.46891191-05:00"
     description: A Helm chart for an empty, unconfigured, standalone instance of OpenSquiggly
     digest: d4fc5cbadf0f061a89063841efd2f66400c3b87d8616d0b47b5f922859b6b63b
     maintainers:
@@ -198,4 +213,4 @@ entries:
     urls:
     - https://opensquiggly.github.io/helm-charts/unconfigured/unconfigured-1.0.0.tgz
     version: 1.0.0
-generated: "2024-04-26T13:42:47.497590505-05:00"
+generated: "2024-04-26T13:46:06.465024152-05:00"
