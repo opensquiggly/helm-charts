@@ -3,10 +3,10 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:39:01.304483689-05:00"
+    created: "2024-04-28T22:48:10.976483331-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
-    digest: c7ac4843176cc291ae1fd750247fd49d1237d01d62725bb6b1f771063243a799
+    digest: e2c50c2c1762a873b8e58948dfc03f89e011b9a29ea185249011c9c58dc3c064
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -19,9 +19,9 @@ entries:
   azure-dns-secret:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:39:01.304788446-05:00"
+    created: "2024-04-28T22:48:10.976624188-05:00"
     description: A Helm chart for Kubernetes to create a secret for Azure DNS
-    digest: 803595ca2849b3b902b8730e59dec6c923d918e503f10c38eae324f166c72dd4
+    digest: 8a7973361742dc73428468104586b782cf85fac5b499ec0ac15f323a6dd52367
     name: azure-dns-secret
     type: application
     urls:
@@ -30,9 +30,9 @@ entries:
   external-dns:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:39:01.305419931-05:00"
+    created: "2024-04-28T22:48:10.976786054-05:00"
     description: A Helm chart for installing external-dns
-    digest: f39c0c6f0fa83c68a3b75d670b521e69d3eb0345d66f1e77d8aaf65398a6259e
+    digest: 6172099d1120beb1f1dcf644bbe3ae1f60c60e5c8e69a4b54ed2485852c820fc
     name: external-dns
     type: application
     urls:
@@ -41,12 +41,12 @@ entries:
   tls-certificate:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:39:01.305592408-05:00"
+    created: "2024-04-28T22:48:10.976896063-05:00"
     description: A Helm chart for installing TLS certificates
-    digest: 727a6185c582d6847d53b8f0373531c5d1db564d43e5bd64c7ebe76fb513cb50
+    digest: 2b57de7b965ab176ebfd4ad9b21ac27f5c205ae4780549b0fda4649d64525e4f
     name: tls-certificate
     type: application
     urls:
     - https://opensquiggly.github.io/helm-charts/tls-certificate-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-28T22:39:01.3039773-05:00"
+generated: "2024-04-28T22:48:10.976016327-05:00"
