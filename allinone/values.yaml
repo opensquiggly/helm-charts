@@ -103,9 +103,9 @@ configSecretName: ""
 # If start=true, set deploy replicas to 1, otherwise set to 0
 start: true
 
-version: 1602
+version: 1603
 
 followVersionTrack: "stable"
-version: 1.0.1602
+version: 1.0.1603
 stagingVersion: 1431
 stableVersion: 1402

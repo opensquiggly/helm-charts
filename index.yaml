@@ -3,10 +3,10 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:48:10.976483331-05:00"
+    created: "2024-04-28T22:51:18.351794098-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
-    digest: e2c50c2c1762a873b8e58948dfc03f89e011b9a29ea185249011c9c58dc3c064
+    digest: b70291c982a83e7a680fecb02070dcbcaf1f1c19f3e51907674cf89aaa68dc81
     maintainers:
     - email: info@opensquiggly.com
       name: Kevin Dietz
@@ -14,14 +14,14 @@ entries:
     name: allinone
     type: application
     urls:
-    - https://opensquiggly.github.io/helm-charts/allinone-1.0.1602.tgz
-    version: 1.0.1602
+    - https://opensquiggly.github.io/helm-charts/allinone-1.0.1603.tgz
+    version: 1.0.1603
   azure-dns-secret:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:48:10.976624188-05:00"
+    created: "2024-04-28T22:51:18.351913054-05:00"
     description: A Helm chart for Kubernetes to create a secret for Azure DNS
-    digest: 8a7973361742dc73428468104586b782cf85fac5b499ec0ac15f323a6dd52367
+    digest: 377a6aff22df3148c295308d1e49a7f010386ba88f2b17942a8546ff760f2033
     name: azure-dns-secret
     type: application
     urls:
@@ -30,9 +30,9 @@ entries:
   external-dns:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:48:10.976786054-05:00"
+    created: "2024-04-28T22:51:18.352074539-05:00"
     description: A Helm chart for installing external-dns
-    digest: 6172099d1120beb1f1dcf644bbe3ae1f60c60e5c8e69a4b54ed2485852c820fc
+    digest: b5004b989ba545b2f23f2f8148e5ba210124cd87a25bddb7a149cc242cf29bbd
     name: external-dns
     type: application
     urls:
@@ -41,12 +41,12 @@ entries:
   tls-certificate:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-04-28T22:48:10.976896063-05:00"
+    created: "2024-04-28T22:51:18.352185209-05:00"
     description: A Helm chart for installing TLS certificates
-    digest: 2b57de7b965ab176ebfd4ad9b21ac27f5c205ae4780549b0fda4649d64525e4f
+    digest: 5d23c7d4625c513fd6dc262e8edc9d9da0195b532597f9b513d475fc30e5ff6a
     name: tls-certificate
     type: application
     urls:
     - https://opensquiggly.github.io/helm-charts/tls-certificate-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-28T22:48:10.976016327-05:00"
+generated: "2024-04-28T22:51:18.351348114-05:00"
