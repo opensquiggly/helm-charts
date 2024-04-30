@@ -1,8 +1,0 @@
-apiVersion: storage.k8s.io/v1
-kind: StorageClass
-allowVolumeExpansion: true
-metadata:
-  name: {{ .Release.Name }}-storageclass
-provisioner: {{ .Values.storageClassProvisioner }}
-reclaimPolicy: Retain
-volumeBindingMode: WaitForFirstConsumer
