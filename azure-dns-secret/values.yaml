@@ -1,5 +1,0 @@
-tenantId: "your-tenant-id"
-subscriptionId: "your-subscription-id"
-resourceGroup: "your-resource-group"
-aadClientId: "your-aad-client-id"
-aadClientSecret: "your-aad-client-secret"
