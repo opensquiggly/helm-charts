@@ -3,7 +3,22 @@ entries:
   allinone:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.749030616-05:00"
+    created: "2024-08-18T22:50:45.894786055-05:00"
+    description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
+      and ElasticSearch installed as a multi-container pod
+    digest: 4b55f9fa3efd2fdb3c4fa947745d41444a1a8a82d9c1d3b1eefbcf0f3ffe00e6
+    maintainers:
+    - email: info@opensquiggly.com
+      name: Kevin Dietz
+      url: https://opensquiggly.com
+    name: allinone
+    type: application
+    urls:
+    - https://opensquiggly.github.io/helm-charts/allinone-1.0.2071.tgz
+    version: 1.0.2071
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-08-18T22:50:45.893405833-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 500b623bf1300d8956741113683f97354e3bf20c76211e1acdb2e5d963cf86b0
@@ -18,7 +33,7 @@ entries:
     version: 1.0.2069
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.748712544-05:00"
+    created: "2024-08-18T22:50:45.892761814-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 14e6387f9bebf0bfca6ce2dfa55b921ba042728af904dce34bb6074878341f4c
@@ -33,7 +48,7 @@ entries:
     version: 1.0.2067
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.74839337-05:00"
+    created: "2024-08-18T22:50:45.892118206-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f2a71dea08d2bdcbffbb5bbba5c7790ec0b373753c9202757e731efdd7fc84d5
@@ -48,7 +63,7 @@ entries:
     version: 1.0.2065
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.748059909-05:00"
+    created: "2024-08-18T22:50:45.891489557-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 3353f12f025dd885f888e06fc6997293d650c974e0a3d7afc037fc939d8d704a
@@ -63,7 +78,7 @@ entries:
     version: 1.0.2063
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.747746105-05:00"
+    created: "2024-08-18T22:50:45.890851118-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c51acbf585e16481ef70c55d9384a1f1b6cd6eb404c23983d3759a14299baccf
@@ -78,7 +93,7 @@ entries:
     version: 1.0.2061
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.747398276-05:00"
+    created: "2024-08-18T22:50:45.890221557-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 8c06513e24877fd6848c691c2d87883bb220613a0aa8f50689f4a0a313a3b3e6
@@ -93,7 +108,7 @@ entries:
     version: 1.0.2059
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.747036772-05:00"
+    created: "2024-08-18T22:50:45.889597716-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ed5430457f4502bc21fde174cd322033d8041854dc6aec920db95221da5382d1
@@ -108,7 +123,7 @@ entries:
     version: 1.0.2057
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.746712509-05:00"
+    created: "2024-08-18T22:50:45.888968245-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 3824297be622378e8df2ef0c6f3ae95f66d2789240fa9d058a5803844172f882
@@ -123,7 +138,7 @@ entries:
     version: 1.0.2055
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.746384568-05:00"
+    created: "2024-08-18T22:50:45.888322764-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 398d988f1b23488a0b22c74286c5b7a32d98d65fd4a3107b7472ab7bca6d488d
@@ -138,7 +153,7 @@ entries:
     version: 1.0.2053
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.746065424-05:00"
+    created: "2024-08-18T22:50:45.887693382-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: cebd20158f770ca14beb1a01ba082d06da84787577f3ef905ca95297e052c051
@@ -153,7 +168,7 @@ entries:
     version: 1.0.2051
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.745752642-05:00"
+    created: "2024-08-18T22:50:45.88704232-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 7250221ede32e8a3209f5c1e15a456b94ee3ceebcac8e81ac6e1786be748e197
@@ -168,7 +183,7 @@ entries:
     version: 1.0.2049
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.745435261-05:00"
+    created: "2024-08-18T22:50:45.886407649-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 6e875d988105bf7e384bb3ff4e0d40d5a8b369db24688ca98a21adaf19af2fa7
@@ -183,7 +198,7 @@ entries:
     version: 1.0.2047
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.745116488-05:00"
+    created: "2024-08-18T22:50:45.885771195-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 05aad78cf3521763b64b6d2a3d4b1ea5dba1ae9129a5b7a8b30ae3c3c6bdf818
@@ -198,7 +213,7 @@ entries:
     version: 1.0.2045
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.744759372-05:00"
+    created: "2024-08-18T22:50:45.885134831-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4a19b2b32812893b6ec15bf7bd560c57d238e9d47511a500001456658d28a97a
@@ -213,7 +228,7 @@ entries:
     version: 1.0.2043
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.744387018-05:00"
+    created: "2024-08-18T22:50:45.884499148-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: a4526f3724b8ff4b120aa8312452404e8e6a36bc18379dc50a75ef1b886ec310
@@ -228,7 +243,7 @@ entries:
     version: 1.0.2041
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.743999755-05:00"
+    created: "2024-08-18T22:50:45.883850851-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4e2935428c1b93aea62fcdf146108200ecf763e669fdc847128c0b92ad216708
@@ -243,7 +258,7 @@ entries:
     version: 1.0.2039
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.743636407-05:00"
+    created: "2024-08-18T22:50:45.88321623-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: a109a80fa5b61f57f7c6ede61c03067a8c85e3f99005ce0495c6cb682151746e
@@ -258,7 +273,7 @@ entries:
     version: 1.0.2037
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.743271376-05:00"
+    created: "2024-08-18T22:50:45.882542504-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 76fde3202e60b49f084b4165eb9fdc63d1f89f89a0fb0daba847119b67cc680d
@@ -273,7 +288,7 @@ entries:
     version: 1.0.2035
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.742386081-05:00"
+    created: "2024-08-18T22:50:45.881893225-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: db3d7003975088021585f453cc307688c560cc108e77a1091cfb0279fb341d63
@@ -288,7 +303,7 @@ entries:
     version: 1.0.2033
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.74177261-05:00"
+    created: "2024-08-18T22:50:45.881255208-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 6b9a70e37dd930a89faba19b84a984cd48fa8523463ae6f13951d334956cdcb9
@@ -303,7 +318,7 @@ entries:
     version: 1.0.2031
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.741326917-05:00"
+    created: "2024-08-18T22:50:45.880605317-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 97e64ea8fccf386127cd4a1008b59a68c58b737999a758384d39a19bdebe4f52
@@ -318,7 +333,7 @@ entries:
     version: 1.0.2029
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.740870102-05:00"
+    created: "2024-08-18T22:50:45.879936191-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 998a7440339fc6cb3b6ee050c6a6c909ee0eadfaeb95308abf47e465f03afbd0
@@ -333,7 +348,7 @@ entries:
     version: 1.0.2027
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.740413398-05:00"
+    created: "2024-08-18T22:50:45.879193174-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 78d7579dc19306619c05874839e09923e1605fe61b24b38f24d386ac684a4e2e
@@ -348,7 +363,7 @@ entries:
     version: 1.0.2024
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.739915796-05:00"
+    created: "2024-08-18T22:50:45.878019904-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 037ed19fdd1eb5c9b59e2b2b9e32e9f2ee88f50883b30749c1da95d33734566d
@@ -363,7 +378,7 @@ entries:
     version: 1.0.2022
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.739375283-05:00"
+    created: "2024-08-18T22:50:45.877543593-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 54e1df277ea1cf0bdd92f049897742db77238bdbe95a175a8d3386a0d3e25305
@@ -378,7 +393,7 @@ entries:
     version: 1.0.2020
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.738872732-05:00"
+    created: "2024-08-18T22:50:45.877102768-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 22e5d15ae45f6e0994b4116058ad0a11b6af4e75699f82bda94faa45458595bb
@@ -393,7 +408,7 @@ entries:
     version: 1.0.2018
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.738426037-05:00"
+    created: "2024-08-18T22:50:45.876665441-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 5fd30cc34b407683544b10000b9ce6523251ec9ca16e49c6489eb5ec59a439cf
@@ -408,7 +423,7 @@ entries:
     version: 1.0.2016
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.737975875-05:00"
+    created: "2024-08-18T22:50:45.876231069-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f8601af434afe32d4e945666e14849578125466ebef306461e4ed66cdcc756ba
@@ -423,7 +438,7 @@ entries:
     version: 1.0.2014
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.737522697-05:00"
+    created: "2024-08-18T22:50:45.875793461-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 9106237ef57615177ee5a234b0be9577e93004657626748bd0131f0246beb74f
@@ -438,7 +453,7 @@ entries:
     version: 1.0.2012
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.737058749-05:00"
+    created: "2024-08-18T22:50:45.87534379-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 510e9c46fc057ef1a3895d69d6889ddbcd8eea729986ae6dd51e6ed745dac7aa
@@ -453,7 +468,7 @@ entries:
     version: 1.0.2010
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.736595112-05:00"
+    created: "2024-08-18T22:50:45.874872918-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4513984a649ef95e9e2bde8b1e58689a20dd21701ddab7fbc52556991e1abe77
@@ -468,7 +483,7 @@ entries:
     version: 1.0.2008
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.736104744-05:00"
+    created: "2024-08-18T22:50:45.874437124-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 140db5586be50786685ad84cad6e2f2a8c3a36f7389b53a575374a32020d166b
@@ -483,7 +498,7 @@ entries:
     version: 1.0.2006
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.735444835-05:00"
+    created: "2024-08-18T22:50:45.873995648-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4d92289157c56c1d21102cf438aab80af38099820fe2bec54d4d34114619c6df
@@ -498,7 +513,7 @@ entries:
     version: 1.0.2004
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.734980907-05:00"
+    created: "2024-08-18T22:50:45.873554443-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ede8e85fd4069e245570b61456c1bb47431160693fc1b1d3740d2f907d44f4c0
@@ -513,7 +528,7 @@ entries:
     version: 1.0.2002
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.734511619-05:00"
+    created: "2024-08-18T22:50:45.873119771-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 7c726bf755decca02300650075b2006fe718221d8c8f986b7d51b65753d5a80c
@@ -528,7 +543,7 @@ entries:
     version: 1.0.2000
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.733526565-05:00"
+    created: "2024-08-18T22:50:45.872240958-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: deda885ca9f1c9b75aa8472659fd354cc5801ec89ac045aa1db01f833cb0f76e
@@ -543,7 +558,7 @@ entries:
     version: 1.0.1998
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.733014816-05:00"
+    created: "2024-08-18T22:50:45.871802578-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: cc11bef47d7b27bba368be1077ce5b5124386d001a9c5c7fa87c409c3e67d613
@@ -558,7 +573,7 @@ entries:
     version: 1.0.1996
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.732544677-05:00"
+    created: "2024-08-18T22:50:45.871365381-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 2262423595bd95989ec46fef0902c89826bb7663644d4394ff1a536b4106dd46
@@ -573,7 +588,7 @@ entries:
     version: 1.0.1994
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.73202845-05:00"
+    created: "2024-08-18T22:50:45.870905691-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 445024e7dbe0530e0bdb57431cf439281fa8f93c692e5bc49f3fbf0e9a398a2e
@@ -588,7 +603,7 @@ entries:
     version: 1.0.1992
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.731345207-05:00"
+    created: "2024-08-18T22:50:45.870468433-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: a8ee135a3db85e222cad7b9614b1a01059da3c0bc61cd9aa39a8e430c89dd729
@@ -603,7 +618,7 @@ entries:
     version: 1.0.1990
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.730340305-05:00"
+    created: "2024-08-18T22:50:45.870022309-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 021d89db2b95967190b55736c1e8dabdb515e364ec32b791a25e48551fecf8c3
@@ -618,7 +633,7 @@ entries:
     version: 1.0.1988
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.730026922-05:00"
+    created: "2024-08-18T22:50:45.86956825-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c19e725ca7c8f59aa4fe262a0ca49ad7085876d75f3771bff39779a81c9f2dc9
@@ -633,7 +648,7 @@ entries:
     version: 1.0.1986
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.729708169-05:00"
+    created: "2024-08-18T22:50:45.869127546-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ad293c00101d01e27c597a932389dd82404c0d70d9e36f78626481039c67a7bb
@@ -648,7 +663,7 @@ entries:
     version: 1.0.1984
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.729399464-05:00"
+    created: "2024-08-18T22:50:45.868678786-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ce62a6bbbf92a13bb13eb9cce9a9a47076f5fe0728005fcfccf469e292f201cd
@@ -663,7 +678,7 @@ entries:
     version: 1.0.1982
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.729092173-05:00"
+    created: "2024-08-18T22:50:45.868190763-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c11642e13a841233ec28745679501d6d33fa3b54758d958ebbc01539405c7356
@@ -678,7 +693,7 @@ entries:
     version: 1.0.1980
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.728778279-05:00"
+    created: "2024-08-18T22:50:45.867184508-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 555114571ff3b22b9d420404d60e66dccde148f84fe94f356ef87355c40d9cfa
@@ -693,7 +708,7 @@ entries:
     version: 1.0.1978
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.72846724-05:00"
+    created: "2024-08-18T22:50:45.866832182-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 45aa44b6392e25ffcebacee07ca290dc9db8cb583dd7882e67390e5b650b10da
@@ -708,7 +723,7 @@ entries:
     version: 1.0.1976
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.728154428-05:00"
+    created: "2024-08-18T22:50:45.866510954-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 1b8177c56574f179b088e7e467e30edf0ceadbce36a77e0ea1bdc0fa00abfea5
@@ -723,7 +738,7 @@ entries:
     version: 1.0.1974
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.727829503-05:00"
+    created: "2024-08-18T22:50:45.866196849-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f3ee7b9bac4969c91515d24832e3bc48d60004cb1e0aa982d73422fcf27026a1
@@ -738,7 +753,7 @@ entries:
     version: 1.0.1972
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.727514658-05:00"
+    created: "2024-08-18T22:50:45.865880751-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f21e20db3b310856a901c2671d77609bf88b4e82481a9b79a2127c7d8bfc421c
@@ -753,7 +768,7 @@ entries:
     version: 1.0.1969
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.727208499-05:00"
+    created: "2024-08-18T22:50:45.865556317-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: fafa47771ad8a4a0c7dd2f55ae2776cea67174910ef89e63f89bf714027db459
@@ -768,7 +783,7 @@ entries:
     version: 1.0.1967
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.726896989-05:00"
+    created: "2024-08-18T22:50:45.865237844-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: d915496370d23ca8d339c6129346a4a8e88fe4d71e2b303fa69315914c331ed0
@@ -783,7 +798,7 @@ entries:
     version: 1.0.1965
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.726582745-05:00"
+    created: "2024-08-18T22:50:45.864917909-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: e118e58b196329908587696eb03eb1c6a9534e606211974493f244c08740a08e
@@ -798,7 +813,7 @@ entries:
     version: 1.0.1963
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.726259944-05:00"
+    created: "2024-08-18T22:50:45.864598094-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4ca4be5cc16ad7b47d6520a52ef10c1b957939c8ef842b7e859ebed21aa6a193
@@ -813,7 +828,7 @@ entries:
     version: 1.0.1961
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.725938636-05:00"
+    created: "2024-08-18T22:50:45.86427367-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: d543404b2c18eb766979c3087e41e58c57ff3a05d00bf884de4941a03fb5a983
@@ -828,7 +843,7 @@ entries:
     version: 1.0.1959
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.725617969-05:00"
+    created: "2024-08-18T22:50:45.863941852-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: aca31c3af7fb9dc38e2ee53590ef4b8c118821b9c9ee6e3ace37310b65efb78e
@@ -843,7 +858,7 @@ entries:
     version: 1.0.1957
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.725303294-05:00"
+    created: "2024-08-18T22:50:45.863608291-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 6481bb4da0fa6efe804649a6bfdc8aa4bfbc171e680c2880dd091c4234fc8112
@@ -858,7 +873,7 @@ entries:
     version: 1.0.1955
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.724985833-05:00"
+    created: "2024-08-18T22:50:45.863276042-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: a7aa7c6fb0d304c8030f6f5ce2c36bbb35ad1ddc3e7de17b27a6098f2add53aa
@@ -873,7 +888,7 @@ entries:
     version: 1.0.1953
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.724667301-05:00"
+    created: "2024-08-18T22:50:45.862898357-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 313af4ea874a13c04650ee34535bd3cd45be1fa4dfa8909d0956395344430af3
@@ -888,7 +903,7 @@ entries:
     version: 1.0.1951
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.724346894-05:00"
+    created: "2024-08-18T22:50:45.862572751-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 08a506be7ff51f3506361c78a659937965a7821145be785a78d9dc8d63486a9e
@@ -903,7 +918,7 @@ entries:
     version: 1.0.1949
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.724003114-05:00"
+    created: "2024-08-18T22:50:45.862243668-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: b633f943716580dbe3e5347bf470c336126d66863fcda9256ff24067d2d399aa
@@ -918,7 +933,7 @@ entries:
     version: 1.0.1947
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.723617694-05:00"
+    created: "2024-08-18T22:50:45.861905568-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 247ebd55a5624815b5d5db0312db4c0998c1765735506e1af50784c2c4a19bc3
@@ -933,7 +948,7 @@ entries:
     version: 1.0.1945
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.722708033-05:00"
+    created: "2024-08-18T22:50:45.861503357-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 69824f47953afb1dad8220fd0d1ae63ed1fbe7caa163c7008ebe6d25d3a292cb
@@ -948,7 +963,7 @@ entries:
     version: 1.0.1943
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.722378409-05:00"
+    created: "2024-08-18T22:50:45.860563939-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ae4a0c41efe45b0f149577228cc9d648d323e070bdbfb88c4db073eb825f58ea
@@ -963,7 +978,7 @@ entries:
     version: 1.0.1941
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.722065627-05:00"
+    created: "2024-08-18T22:50:45.860186365-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 6526a3e42475778550068171c1c560a1cba4b1d66af390fed9fd0354b2b1e13b
@@ -978,7 +993,7 @@ entries:
     version: 1.0.1939
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.721750621-05:00"
+    created: "2024-08-18T22:50:45.859863373-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: bf5c32c982aa27f462dbc2b60b3e3e8cc0b3127cd5b551d1641e1fe348d5c419
@@ -993,7 +1008,7 @@ entries:
     version: 1.0.1937
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.721440154-05:00"
+    created: "2024-08-18T22:50:45.859540302-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 04ad1a8018aea43a72144cfa4f82701eddd7e342180479f492baf01c3317762a
@@ -1008,7 +1023,7 @@ entries:
     version: 1.0.1935
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.721128975-05:00"
+    created: "2024-08-18T22:50:45.859218393-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 1c15880ee44a03b96d937acaeb705f0093b77475d610c7ebcf9cde414891fe29
@@ -1023,7 +1038,7 @@ entries:
     version: 1.0.1933
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.720814479-05:00"
+    created: "2024-08-18T22:50:45.858869993-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 25ce5194bd7c14394fae8f4a235c38f8592ad7d200695fd2f03fb144b2e78041
@@ -1038,7 +1053,7 @@ entries:
     version: 1.0.1931
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.720480117-05:00"
+    created: "2024-08-18T22:50:45.858555348-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: d42330db773ee7c8f99cfff610fb492259885a0ed5eb236b0be660f58ad8ae69
@@ -1053,7 +1068,7 @@ entries:
     version: 1.0.1929
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.720156424-05:00"
+    created: "2024-08-18T22:50:45.858237997-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c8b34760d131de718419a81a0dfbd6c445652310765fdf9662a2e8de24fa4962
@@ -1068,7 +1083,7 @@ entries:
     version: 1.0.1927
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.71983712-05:00"
+    created: "2024-08-18T22:50:45.857922851-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4a79fdf82048fce106adfa284a6b5e17e15210889ffac3f44bd21a0112cbed1c
@@ -1083,7 +1098,7 @@ entries:
     version: 1.0.1925
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.719524488-05:00"
+    created: "2024-08-18T22:50:45.857597675-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 107c6498c5e3570242d7845f073693053be93b4e129f9114e941fdff1c06f2e0
@@ -1098,7 +1113,7 @@ entries:
     version: 1.0.1923
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.719206557-05:00"
+    created: "2024-08-18T22:50:45.857277749-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 147bc35e55e93d98c39798d6292f74c7d8b05a0cadb2dd3d3d4161814b4e63a4
@@ -1113,7 +1128,7 @@ entries:
     version: 1.0.1921
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.718898023-05:00"
+    created: "2024-08-18T22:50:45.856958655-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 42b568d30fadb6a8777a73988e344fb777d0e437d435ce8aee2251b055704289
@@ -1128,7 +1143,7 @@ entries:
     version: 1.0.1919
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.718578538-05:00"
+    created: "2024-08-18T22:50:45.8566337-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f268dd61e758b666702633b2605d4397b21c79e7e267a86daec6f1bbc14c2f5b
@@ -1143,7 +1158,7 @@ entries:
     version: 1.0.1917
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.718263582-05:00"
+    created: "2024-08-18T22:50:45.856311631-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: a814daf3c10683f47bd2c12e8cfbbcbd40bdac79c32da9b8864e56c2f0c194a8
@@ -1158,7 +1173,7 @@ entries:
     version: 1.0.1915
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.717948115-05:00"
+    created: "2024-08-18T22:50:45.855971417-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: fe0ca7a94b6ed37ae1e036299ec06a2790692975d1508fa33ddc6fc00a7eec36
@@ -1173,7 +1188,7 @@ entries:
     version: 1.0.1914
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.717631556-05:00"
+    created: "2024-08-18T22:50:45.855635-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 57f0066add4ac59e3e28560a1671c9e9de3d93f14a5bc15940a150d8d1ecc9dd
@@ -1188,7 +1203,7 @@ entries:
     version: 1.0.1912
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.717292554-05:00"
+    created: "2024-08-18T22:50:45.855305897-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 91a151fd35e35c7d819f3b15a94375f3d3cf80ee31121af8c6bd0432874ac764
@@ -1203,7 +1218,7 @@ entries:
     version: 1.0.1910
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.716963442-05:00"
+    created: "2024-08-18T22:50:45.854925246-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 55816f22b8f5322573985ea93e46a640abf36269ddb21e5ec6e885fe7be65b68
@@ -1218,7 +1233,7 @@ entries:
     version: 1.0.1906
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.716643436-05:00"
+    created: "2024-08-18T22:50:45.853918411-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 9218ff0871b06fdb1e5559994134da19bef1e7403f4a83aa65a0b57cd3cdafec
@@ -1233,7 +1248,7 @@ entries:
     version: 1.0.1904
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.716295718-05:00"
+    created: "2024-08-18T22:50:45.853460204-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 629874d717c32278682efe6e917904997b0d929c3dcbce827c7270f4cede1f0a
@@ -1248,7 +1263,7 @@ entries:
     version: 1.0.1901
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.715931178-05:00"
+    created: "2024-08-18T22:50:45.853001596-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 2909dd8c11b0e3b026d77e7165bfd3ccc75bdb29eea9bd884ea22c882151757c
@@ -1263,7 +1278,7 @@ entries:
     version: 1.0.1899
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.715514289-05:00"
+    created: "2024-08-18T22:50:45.852546735-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: d01b1f0aa29794a4658f39bf6ca48a077bcf461ca0fdc032e3f691500d6bf5fe
@@ -1278,7 +1293,7 @@ entries:
     version: 1.0.1897
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.714475974-05:00"
+    created: "2024-08-18T22:50:45.852081735-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 94451502b5c8a188e66a9c82fd24faa8a12882e20e68e3668a99e30c67e614f4
@@ -1293,7 +1308,7 @@ entries:
     version: 1.0.1895
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.713970638-05:00"
+    created: "2024-08-18T22:50:45.851618599-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c3ca269e13590eb4c428c179c155e67da334e13222f69a05698f4cc0ac3362f4
@@ -1308,7 +1323,7 @@ entries:
     version: 1.0.1893
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.713489247-05:00"
+    created: "2024-08-18T22:50:45.851146586-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 28d9d7243ea87c905ef50ea7b3c9cbfb56bc808c450f9d69ea7b7e14ba350e0c
@@ -1323,7 +1338,7 @@ entries:
     version: 1.0.1891
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.713035177-05:00"
+    created: "2024-08-18T22:50:45.850681375-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 6a4e4ef4ededc365d58e19fd8d8dcc62198a5d6aa5b14ec207575fc4d255c5c4
@@ -1338,7 +1353,7 @@ entries:
     version: 1.0.1889
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.712577341-05:00"
+    created: "2024-08-18T22:50:45.850223659-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 2ee61230cb203411643f1924a51022d946383ee9bce8518963401e4b4f4b3373
@@ -1353,7 +1368,7 @@ entries:
     version: 1.0.1887
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.712056636-05:00"
+    created: "2024-08-18T22:50:45.849767706-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ae4ad7dcdb701271ba8f993ac4baf4a67d18bd0a1349f87e148ec72cef261d58
@@ -1368,7 +1383,7 @@ entries:
     version: 1.0.1884
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.711598659-05:00"
+    created: "2024-08-18T22:50:45.849305321-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 188da1adbc9d7ce6c5f8df333a1e9818c0e206396125214f4e1fb753715f3f6f
@@ -1383,7 +1398,7 @@ entries:
     version: 1.0.1882
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.711148667-05:00"
+    created: "2024-08-18T22:50:45.848831845-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 3cab047791142780d264e954512d220b9e0ac7012bf75c7cc267c1d0e50636cb
@@ -1398,7 +1413,7 @@ entries:
     version: 1.0.1880
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.71068526-05:00"
+    created: "2024-08-18T22:50:45.848370011-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ce08f096c3a123a7e0db8ab86c960765e889f132820000a86e88a36cd6f82d3d
@@ -1413,7 +1428,7 @@ entries:
     version: 1.0.1878
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.710229267-05:00"
+    created: "2024-08-18T22:50:45.847913868-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: e82f21b6c2b4fbb3dd12f76dfba914cb11cadcdb11cd0480f0ee4cfe3b422a70
@@ -1428,7 +1443,7 @@ entries:
     version: 1.0.1876
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.709763566-05:00"
+    created: "2024-08-18T22:50:45.847440011-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 66f538dba675c1af76b18ab4f1673f3990fd3ef0f3d367c1f3be907a176bf78a
@@ -1443,7 +1458,7 @@ entries:
     version: 1.0.1874
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.709304768-05:00"
+    created: "2024-08-18T22:50:45.846946457-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 7f9d5ab614e31396e4d0168b1e71e3b2eb35e0f466b1a0a6ca08f5441524eeca
@@ -1458,7 +1473,7 @@ entries:
     version: 1.0.1872
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.708844667-05:00"
+    created: "2024-08-18T22:50:45.846464485-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ea4af0af9d92a0f116a6d9beff40cee7ec6ad6d69d0b72d344d8abdb73984d9a
@@ -1473,7 +1488,7 @@ entries:
     version: 1.0.1870
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.708369227-05:00"
+    created: "2024-08-18T22:50:45.845897271-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c1fc8d296d76985a0dc6a5ffa0bc51b1b6197fed5c8293720dff48b12cae6e1b
@@ -1488,7 +1503,7 @@ entries:
     version: 1.0.1868
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.707890652-05:00"
+    created: "2024-08-18T22:50:45.844835632-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 996be14d074e747a89b4b08c0aa729e8401ee8f8eb0510fdd02e2883eb811c3e
@@ -1503,7 +1518,7 @@ entries:
     version: 1.0.1866
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.707417105-05:00"
+    created: "2024-08-18T22:50:45.844514324-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 8750f7fa233b4d8ba0ea830cf6d5624241a474119a2c809b748cf569a34ffc1e
@@ -1518,7 +1533,7 @@ entries:
     version: 1.0.1864
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.706945984-05:00"
+    created: "2024-08-18T22:50:45.844175613-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 9f76684a7247f99be200673198acc41bf07e1229f3c3e478abe1b62d11137ac0
@@ -1533,7 +1548,7 @@ entries:
     version: 1.0.1862
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.7064737-05:00"
+    created: "2024-08-18T22:50:45.843824258-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: b47908648ff4bc0822667c973108ed3f887f3be3ca192350b6da991590bd7eba
@@ -1548,7 +1563,7 @@ entries:
     version: 1.0.1860
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.705997038-05:00"
+    created: "2024-08-18T22:50:45.843494624-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 33d0a48c90e2a44bc9a095c990ef46bc71169d3902057bd44c21b28b871c7748
@@ -1563,7 +1578,7 @@ entries:
     version: 1.0.1858
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.705484688-05:00"
+    created: "2024-08-18T22:50:45.843150964-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c388c5af212723f75fb14d99393187fda6c6f64e71e5701bb72e23965b893a3f
@@ -1578,7 +1593,7 @@ entries:
     version: 1.0.1856
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.704569176-05:00"
+    created: "2024-08-18T22:50:45.842807504-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 8a0d780e5b8104ef904773f082f1f3ab710a7635c2842dda6ad06a94468837ff
@@ -1593,7 +1608,7 @@ entries:
     version: 1.0.1854
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.704025497-05:00"
+    created: "2024-08-18T22:50:45.842458253-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 93a506fbd11481f9a2ca13cd5a0ccca9826a9ac6652a8f4acaf94932566871ab
@@ -1608,7 +1623,7 @@ entries:
     version: 1.0.1823
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.703649115-05:00"
+    created: "2024-08-18T22:50:45.84213963-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: c75012e24891f761c3e951091deaad13de5d3025e3ace4d644aa682dfab1bd5e
@@ -1623,7 +1638,7 @@ entries:
     version: 1.0.1821
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.703271941-05:00"
+    created: "2024-08-18T22:50:45.841807011-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 06e9775ffe27f8715bec36fa2bebccf99ba21bb38247a7e8c9492adc94b696e2
@@ -1638,7 +1653,7 @@ entries:
     version: 1.0.1819
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.702904135-05:00"
+    created: "2024-08-18T22:50:45.841467418-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: ff47c651cdc8abe990c4a8c6ce43aef087b9eb1ad13cfaabcde87030e75e76d3
@@ -1653,7 +1668,7 @@ entries:
     version: 1.0.1817
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.702548131-05:00"
+    created: "2024-08-18T22:50:45.841134909-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: b2fa2978f4e312432bedf4b42b8497c0ed4ca077f20dfd75bb0b2e058fdd56da
@@ -1668,7 +1683,7 @@ entries:
     version: 1.0.1815
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.702190945-05:00"
+    created: "2024-08-18T22:50:45.840817779-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 1972b403bb1ce800e1485c8ed6899006fee6ffcd9b130bbf93e5c11da749691a
@@ -1683,7 +1698,7 @@ entries:
     version: 1.0.1813
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.701829351-05:00"
+    created: "2024-08-18T22:50:45.840483696-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 08d7bbb373516e80b72fee904412f4f212c1befeae30c9fbf073fb61a03658e6
@@ -1698,7 +1713,7 @@ entries:
     version: 1.0.1638
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.701493886-05:00"
+    created: "2024-08-18T22:50:45.840066056-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 9f5ee6653edb06454809c5d62c624e7d496d3ee4714e233bdebc374d50bc7b29
@@ -1713,7 +1728,7 @@ entries:
     version: 1.0.1636
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.701194389-05:00"
+    created: "2024-08-18T22:50:45.83964012-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 0949a87ccc0f9891f2921ee5bfe7cd80e339bba184ce5300a873834e7d6dabbe
@@ -1728,7 +1743,7 @@ entries:
     version: 1.0.1632
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.700894882-05:00"
+    created: "2024-08-18T22:50:45.839184698-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 8e4c294782d50399be737c537b220e935badc29c4c863fb089ea0a35fab38e13
@@ -1743,7 +1758,7 @@ entries:
     version: 1.0.1605
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.70059242-05:00"
+    created: "2024-08-18T22:50:45.838696845-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f5e5c211bed30acabe353be256417e26ad5b0f661dac70609f36d6e262f3b4cd
@@ -1758,7 +1773,7 @@ entries:
     version: 1.0.1604
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.700273116-05:00"
+    created: "2024-08-18T22:50:45.837635126-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 4462558d1f464f37d44f6a12945ef54166be47be0a76c80cc942a699b16e015a
@@ -1773,7 +1788,7 @@ entries:
     version: 1.0.1603
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.699940817-05:00"
+    created: "2024-08-18T22:50:45.837254075-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: a1e28a57ae371e9c681d816b835fc386f7358bc1dd10038b3c552b1f91013053
@@ -1788,7 +1803,7 @@ entries:
     version: 1.0.1602
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.69959874-05:00"
+    created: "2024-08-18T22:50:45.836884736-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: b6554f8ef30d08dba686ce399286e8e470a5a0d8734cbe604a911a9c46fcc17d
@@ -1803,7 +1818,7 @@ entries:
     version: 1.0.1601
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.699283754-05:00"
+    created: "2024-08-18T22:50:45.836510107-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 601bf659fa4549922230703b0465ffea94a223d1e4d58c9c09480adaffcb396f
@@ -1818,7 +1833,7 @@ entries:
     version: 1.0.1600
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.698946716-05:00"
+    created: "2024-08-18T22:50:45.83612598-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 21561f26bc886db61774976b4313d7afedd0c79fd492c4641e74e10f6c0f7fb3
@@ -1833,7 +1848,7 @@ entries:
     version: 1.0.1596
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.751349945-05:00"
+    created: "2024-08-18T22:50:45.896941634-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 730ce69792fe92515e5f42c60576c09d2ca2a6a46224ede2dcebfbe4561751af
@@ -1848,7 +1863,7 @@ entries:
     version: 1.0.8
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.750789775-05:00"
+    created: "2024-08-18T22:50:45.896635194-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 380395f4357b80c2a64fbf249cc8cc6bccd35dc60d0c69a8a4bd6fdb1af59dd6
@@ -1863,7 +1878,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.75023266-05:00"
+    created: "2024-08-18T22:50:45.896312925-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 06a2f5571e08c03a032a69a1bf940c2b8646e1fd44ebac702acea9e451370bd8
@@ -1878,7 +1893,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.749932132-05:00"
+    created: "2024-08-18T22:50:45.89595115-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 671e2e98777cd94c24eab16d6b2ccfae3f15fa9e30094b07ccb8abddc5eedce6
@@ -1893,7 +1908,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.749636753-05:00"
+    created: "2024-08-18T22:50:45.895602961-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: e11bd62130728229c8bdc0eb953df1a58977a303ae944cf0891cda803061fa98
@@ -1908,7 +1923,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.749333889-05:00"
+    created: "2024-08-18T22:50:45.895246476-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 5c5a51ab786fc5089d9975cabbe30448c955b8c09c18f185dcd6c8cfcd72862b
@@ -1923,7 +1938,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.734039766-05:00"
+    created: "2024-08-18T22:50:45.872664629-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: 0e3d7e4574d479b49d11c534345d7632595a42cee7d145efbfc97df08d3071b3
@@ -1938,7 +1953,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.698615399-05:00"
+    created: "2024-08-18T22:50:45.835759767-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: f2d62582d6ff92a401543a223713bfe1fbc5e687026e6761ef118631e4e41d19
@@ -1953,7 +1968,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.69825635-05:00"
+    created: "2024-08-18T22:50:45.835360902-05:00"
     description: A Helm chart for an all-in-one instance of OpenSquiggly with MongoDB
       and ElasticSearch installed as a multi-container pod
     digest: b4d81728a1e3ec7d802118fc3ef19b8b0408d19a4cbdc501a12e0a2a6624d946
@@ -1969,9 +1984,9 @@ entries:
   azure-dns-secret:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.751487675-05:00"
+    created: "2024-08-18T22:50:45.89707117-05:00"
     description: A Helm chart for Kubernetes to create a secret for Azure DNS
-    digest: 6a8f958135270488794e79889924b499cb04d98fdd565fa1d883730bab597634
+    digest: a455e43f35fa8f9ac31703e16afe984c11ed867e2631f6ae0518486740b30f88
     name: azure-dns-secret
     type: application
     urls:
@@ -1980,7 +1995,7 @@ entries:
   azure-pvc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.75163256-05:00"
+    created: "2024-08-18T22:50:45.897218238-05:00"
     description: Create a persistent volume claim using a specified storage class
       name.
     digest: 52ab9be8b81cfee0ccde086964ed2b03a0a429467d82a20e64074d5eb5924448
@@ -1996,7 +2011,7 @@ entries:
   azure-sc:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.751762736-05:00"
+    created: "2024-08-18T22:50:45.897352452-05:00"
     description: Create an Azure storage class for use with OpenSquiggly instances
       created separately.
     digest: 4f91087be910cabb36072169bec43b5fb676e57937bec159c33fdd1699078e1b
@@ -2012,9 +2027,9 @@ entries:
   external-dns:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.751911287-05:00"
+    created: "2024-08-18T22:50:45.897501083-05:00"
     description: A Helm chart for installing external-dns
-    digest: 209eef93860215d204360ecf57fe00334687e21c481825838e0c2629a28319d3
+    digest: a6d4bb6caf0d0cd4ba56bae39c190bf7613da495c1518dabbdf2cc80b7566a0d
     name: external-dns
     type: application
     urls:
@@ -2023,7 +2038,7 @@ entries:
   my-azure-secret:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.752022257-05:00"
+    created: "2024-08-18T22:50:45.897616241-05:00"
     description: A Helm chart for Kubernetes to create a secret for Azure DNS
     digest: e0467833aa029b8277686b77b0671a6e8bbb604c37c5146d03832f802f686706
     name: my-azure-secret
@@ -2034,12 +2049,12 @@ entries:
   tls-certificate:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-08-18T00:32:40.752131354-05:00"
+    created: "2024-08-18T22:50:45.897742159-05:00"
     description: A Helm chart for installing TLS certificates
-    digest: 6ba4049611a368d8b45a0a6d98d12114186cba7c1d17ef737eeed2d6997c05c0
+    digest: 92ce5c1eb4b17e6b59f328b340b99007377fde525e39444fe9fd6add3eac2e0a
     name: tls-certificate
     type: application
     urls:
     - https://opensquiggly.github.io/helm-charts/tls-certificate-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-18T00:32:40.69778084-05:00"
+generated: "2024-08-18T22:50:45.834837231-05:00"
